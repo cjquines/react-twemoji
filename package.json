@@ -1,6 +1,6 @@
 {
-  "name": "react-twemoji",
-  "version": "0.5.0",
+  "name": "@cjquines/react-twemoji",
+  "version": "0.5.1",
   "description": "A React wrapper for Twemoji",
   "keyword": [
     "emoji",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zxmys/react-twemoji"
+    "url": "https://github.com/cjquines/react-twemoji"
   },
   "license": "MIT",
   "scripts": {
@@ -61,9 +61,9 @@
     "webpack-dev-middleware": "^3.7.0"
   },
   "dependencies": {
+    "@twemoji/api": "15.1.0",
     "lodash.isequal": "^4.5.0",
-    "prop-types": "^15.7.2",
-    "twemoji": "14.0.1"
+    "prop-types": "^15.7.2"
   },
   "peerDependencies": {
     "react": ">=16.4.2"
